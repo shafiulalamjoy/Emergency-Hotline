@@ -6,19 +6,51 @@
     <title>Emergency Hotline</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="min-h-[50px] flex justify-between items-center p-2">
-        <div class="flex items-center gap-4 p-2">
-            <img class="h-[50px]" src="assets/logo.png" alt="">
-            <p class="text-green-800 font-bold text-3xl">Emergency <br> Service</p>
+    <div class="flex justify-between items-center m-4 p-2">
+        <div class="flex items-center gap-4">
+            <img class="h-[40px]" src="assets/logo.png" alt="">
+            <p class="text-green-800 font-bold text-2xl">Emergency <br> Service</p>
         </div>
         <div class="flex gap-2">
-            <p class="flex bg-green-100 h-[50px] w-[130px] rounded-full justify-center p-2 gap-2">0<img class="h-[20px]" src="assets/heart.png" alt=""></p>
-            <p class="flex bg-green-100 h-[50px] w-[130px] rounded-full justify-center p-2 gap-2">100<img class="h-[20px]" src="assets/coin.png" alt=""></p>
+            <p class="flex bg-green-100 h-[50px] w-[130px] rounded-full justify-center items-center gap-2">0<img class="h-[20px]" src="assets/heart.png" alt=""></p>
+            <p class="flex bg-green-100 h-[50px] w-[130px] rounded-full justify-center items-center gap-2">100<img class="h-[20px]" src="assets/coin.png" alt=""></p>
             <button class="bg-green-600 hover:bg-green-700 h-[50px] w-[130px] rounded-full text-white">2 Copy</button>
         </div>
-
     </div>
+
+    <div class="bg-gradient-to-r from-green-900 via-green-800 to-green-900 p-4 text-white flex flex-col justify-center items-center gap-4">
+        <img class="h-[100px]" src="assets/logo.png" alt="">
+        <h1 class="font-bold text-2xl">Emergency Service Directory</h1>
+        <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+    </div>
+
+    <div class="border-2 border-blue-800 m-4 p-4 h-[430px] w-[360px] rounded-lg gap-8">
+        <div class="border-2 border-red-500 flex justify-between ">
+            <img class="h-[30px] bg-pink-200 rounded-sm p-1" src="assets/emergency.png" alt="">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+        <div>
+            <h1 class="font-bold text-xl">National Emergency Number</h1>
+            <p>National Emergency</p>
+            <h1 class="font-bold">999</h1>
+            <p class="bg-gray-100 h-[30px] w-[40px] rounded-full text-center">All</p>
+        </div>
+            <div>
+                <button class="btn btn-neutral btn-outline"><i class="fa-regular fa-copy"></i>Copy</button>
+                <button class="btn btn-active btn-primary">Call</button>
+            </div>
+            
+        </div>
+            
+        </div>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
 </body>
 </html>
