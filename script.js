@@ -1,4 +1,5 @@
 
+// Heart button functionality
 const buttons = document.querySelectorAll(".heart-btn");
 const heartCount = document.getElementById("heartCount");
 
@@ -11,33 +12,24 @@ buttons.forEach(function(btn) {
     })
 });
 
-
-//const coinCount = parseInt(document.getElementById("coinCount").innerText, 10);
-//const calls = document.querySelectorAll(".call-btn");
-//let coins = 100;
-
-//calls.forEach(function(call) {
-    //call.addEventListener("click", function() {
-    //if (coins >= 20) {
-      //  coins -= 20;
-        //document.getElementById("coinCount").innerText = coins;
-       // alert("Calling" +  + "");
-    //}
-  //  else {
-      //  alert("Insufficient coins to make the call.");
-    //}
-    //});
-//});
-
-
+// Call functionality with coin deduction
 let coins = 100; 
 
     function makeCall(Name, colon, number) {
       if (coins >= 20) {
         coins -= 20;
         document.getElementById("coinCount").textContent = coins;
-        alert("Calling"+ Name + colon + number);
+        alert("📞Calling"+ Name + colon + number);
       } else {
         alert("Insufficient coins to make the call.");
       }
     }
+
+// Call history functionality
+
+
+
+
+
+
+

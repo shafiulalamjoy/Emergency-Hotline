@@ -10,18 +10,19 @@
 </head>
 <body>
     <div class="flex justify-between items-center mr-8 ml-8 mt-2 mb-2 p-2">
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-4 sm:text-sm">
             <img class="h-[40px]" src="assets/logo.png" alt="">
             <p class="text-green-800 font-bold text-2xl">Emergency <br> Service</p>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-2 text-base sm:display-none">
             <p class="flex bg-green-100 h-[40px] w-[100px] rounded-full justify-center items-center gap-2"><span id="heartCount">0</span><img class="h-[20px]" src="assets/heart.png" alt=""></p>
             <p class="flex bg-green-100 h-[40px] w-[100px] rounded-full justify-center items-center gap-2"><span id="coinCount">100</span><img class="h-[20px]" src="assets/coin.png" alt=""></p>
             <button class="bg-green-600 hover:bg-green-700 h-[40px] w-[100px] rounded-full text-white">2 Copy</button>
         </div>
     </div>
 
-    <div class="bg-gradient-to-r from-green-900 via-green-800 to-green-900 p-4 text-white flex flex-col justify-center items-center gap-4">
+    <div class="bg-gradient-to-r from-green-900 via-green-800 to-green-900 p-4 text-white flex flex-col justify-center items-center gap-4
+    sm:text-left">
         <img class="h-[100px]" src="assets/logo.png" alt="">
         <h1 class="font-bold text-2xl">Emergency Service Directory</h1>
         <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
@@ -178,7 +179,7 @@
         </div>
         <div class="gap-4 flex">
                 <button class="btn btn-neutral btn-outline h-[30px] w-[140px] border-gray-400 text-gray-600"><i class="fa-regular fa-copy"></i>Copy</button>
-                <button onclick="makeCall('Bangladesh Railway Helpline',':', '163')" class="btn btn-active btn-primary bg-green-600 border-none h-[30px] w-[140px] text-white"><i class="fa-solid fa-phone"></i>Call</button>
+                <button onclick="makeCall('Bangladesh Railway Helpline',':', '163')" class="btn btn-active btn-primary call-btn bg-green-600 border-none h-[30px] w-[140px] text-white"><i class="fa-solid fa-phone"></i>Call</button>
         </div>
     </div>
 
