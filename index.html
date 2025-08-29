@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="flex justify-between items-center mr-8 ml-8 mt-2 mb-2 p-2">
+    <div class="mr-2 ml-2 gap-4  lg:flex justify-between items-center mr-8 ml-8 mt-2 mb-2 p-2">
         <div class="flex items-center gap-4 sm:text-sm">
             <img class="h-[40px]" src="assets/logo.png" alt="">
             <p class="text-green-800 font-bold text-2xl">Emergency <br> Service</p>
         </div>
-        <div class="flex gap-2 text-base ">
+        <div class="display-none mr-2 gap-2 lg:flex gap-2 text-base ">
             <p class="flex bg-green-100 h-[40px] w-[100px] rounded-full justify-center items-center gap-2"><span id="heartCount">0</span><img class="h-[20px]" src="assets/heart.png" alt=""></p>
             <p class="flex bg-green-100 h-[40px] w-[100px] rounded-full justify-center items-center gap-2"><span id="coinCount">100</span><img class="h-[20px]" src="assets/coin.png" alt=""></p>
-            <p class="bg-green-600 hover:bg-green-700 h-[40px] w-[100px] rounded-full text-white text-center p-2"><span id="copyCount">2</span> Copy</p>
+            <p class="bg-green-600 hover:bg-green-700 h-[40px] w-[100px] rounded-full text-white text-center p-2"><span id="copyCount">0</span> Copy</p>
         </div>
     </div>
 
@@ -28,9 +28,9 @@
         <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
     </div>
 
-    <div class="flex bg-green-50 justify-center items-start gap-2 p-4 pt-8">
-    <div class="grid grid-cols-3 gap-2">
-        <div class="m-2 p-2 h-[250px] w-[350px] rounded-lg shadow-lg bg-white lg: m-4 p-4 h-[250px] w-[350px] rounded-lg shadow-lg bg-white">
+    <div class="display-none lg:flex bg-green-50 justify-center items-start gap-2 p-4 pt-8">
+    <div class=" lg:grid grid-cols-3 gap-2">
+        <div class="lg:m-2 p-2 h-[250px] w-[350px] rounded-lg shadow-lg bg-white lg: m-4 p-4 h-[250px] w-[350px] rounded-lg shadow-lg bg-white">
         <div class="flex justify-between items-center">
             <img class="h-[30px] bg-pink-200 rounded-sm p-1" src="assets/emergency.png" alt="">
             <span class="heart-btn"><i class="fa-regular fa-heart text-gray-400"></i></span>
